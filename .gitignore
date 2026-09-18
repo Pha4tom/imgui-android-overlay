@@ -1,0 +1,14 @@
+build/
+.cxx/
+.idea/
+.gradle/
+*.apk
+*.a
+*.o
+*.so
+.DS_Store
+
+# Dear ImGui is a submodule — keep only the placeholder README committed
+# until `git submodule update --init` fills the rest.
+third_party/imgui/*
+!third_party/imgui/README.md
